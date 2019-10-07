@@ -3,7 +3,7 @@ html { box-sizing: border-box;}
 
 body {
 
-    background-image: url("./assets/bg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -52,7 +52,7 @@ main {
 }
   
 
-#fourdots li::before {
+ #fourdots li::before {
     content:"\2022";
     color: white;
     line-height: 0em;
@@ -136,7 +136,7 @@ i{
 #banner {
     background-image: url(./assets/top-image.png);
     width: 100%;
-    height: 350px;
+    height: 360px;
     /* object-fit: none; */
     /* object-position: 30% 30%; */
     background-repeat: no-repeat;
@@ -375,9 +375,10 @@ padding: 20px;
     flex-direction: column;
 }
 
-#contactus h1{
+#contactus h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
+
 }
 
 #contactus p{
@@ -413,24 +414,28 @@ padding: 20px;
     background:#4e4e4e;
     width: 25px;
     height: 25px;
+    margin: 5px;
 }
 
 #footericon > div:nth-child(2){
     background:#adadad;
     width: 25px;
-    height: 25px;    
+    height: 25px;  
+    margin: 5px;  
 }
 
 #footericon > div:nth-child(3){
 background: #797979;
 width: 25px;
 height: 25px;     
+margin: 5px;
 }
 
 #footericon > div:nth-child(4){
     background: #757575;
     width: 25px;
     height: 25px;
+    margin: 5px;
 }
 
 #rightfooter {
@@ -464,11 +469,15 @@ form {
 input {
     width: 100%;
     height: 25px;
+    border-top: gray solid 2px;
+    border-left: gray solid 2px;
 }
  
 textarea {
     width: 100%;
     height: 100px;
+    border-top: gray solid 2px;
+    border-left: gray solid 2px;
 }
 
 
