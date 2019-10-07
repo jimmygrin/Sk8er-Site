@@ -52,7 +52,16 @@ main {
 }
   
 
- #fourdots li::before {
+ li::before {
+    content:"\2022";
+    color: white;
+    line-height: 0em;
+    position: absolute;
+    top: -1em;
+    left:-.5em;
+}
+
+#secbullet::before {
     content:"\2022";
     color: white;
     line-height: 0em;
@@ -275,7 +284,7 @@ i{
     background-size: inherit;
     border: 4px solid white;
     grid-area: lance;
-    position: relative;
+   
     
    
 }
