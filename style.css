@@ -82,28 +82,28 @@ i{
         background:#3a4f8a;
         width: 45px;
         height: 45px;
-        border-bottom:#44423f solid 5px;
+        border-bottom: #7b7a78 solid 5px;
 }
 
 .icons > div:nth-child(2){
         background:#c48333;
         width: 45px;
         height: 45px;    
-        border-bottom:#44423f solid 5px;
+        border-bottom:#7b7a78 solid 5px;
 }
 
 .icons > div:nth-child(3){
     background:#5e84be;
     width: 45px;
     height: 45px;    
-    border-bottom:#44423f solid 5px; 
+    border-bottom:#7b7a78 solid 5px; 
 }
 
 .icons div:nth-child(4){
         background: #a72d2b;
         width: 45px;
         height: 45px;
-        border-bottom:#44423f solid 5px;
+        border-bottom:#7b7a78 solid 5px;
 }
 
 #menucontainer {
